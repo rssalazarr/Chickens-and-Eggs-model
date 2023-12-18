@@ -1,0 +1,9 @@
+pysd==3.12.0
+
+matplotlib==3.7.2
+
+numpy==1.23.5
+
+pandas==2.0.3
+
+ipywidgets==8.0.4
