@@ -8,4 +8,4 @@ pandas==2.0.3
 
 ipywidgets==8.0.4
 
-voila
+voila==0.5.5
