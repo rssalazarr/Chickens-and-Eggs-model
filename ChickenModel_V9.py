@@ -5,12 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-# Set the directory where your model is located
-os.chdir("https://github.com/rssalazarr/Chickens-and-Eggs-model")
-
 # Function to run the model
 def run_model(normal_fertility_rate, normal_death_risk, max_chicken_capacity, initial_chicken_population, initial_eggs_population):
-    model = pysd.read_vensim("https://github.com/rssalazarr/Chickens-and-Eggs-model/SFD chicken model V2.mdl")
+    model = pysd.read_vensim("SFD chicken model V2.mdl")
     params = {
         'Normal fertility rate': normal_fertility_rate,
         'Normal death risk': normal_death_risk,
